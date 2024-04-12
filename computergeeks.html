@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Computer Geeks</title>
+	<!-- style sheet link -->
+	<link rel="stylesheet" href="computergeeks.css" />
+	<!-- font awsome link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+</head>
+
+<body>
+	<header>
+		<div class="header-left">7
+			<div class="cg-logo">
+				<img src="cg.png" alt="">
+			</div>
+			<div class="menu-btn" href="#tutorials">Tutorials<i class="fa-solid fa-caret-down"></i></div>
+			<div class="menu-btn" href="#exercise">Exercise<i class="fa-solid fa-caret-down"></i></div>
+			<div class="menu-btn" href="#certificates">Certificates<i class="fa-solid fa-caret-down"></i></div>
+			<div class="menu-btn" href="#services">Services<i class="fa-solid fa-caret-down"></i></div>
+			<div class="LightDark btn">
+				<i class="fa-solid fa-circle-half-stroke"></i>
+			</div>
+			<div class="search">
+				<input type="text" id="search-nav" placeholder="search">
+			</div>
+		</div>
+		<div class="header-right">
+			<a class="btn" id="jobs" href="#jobs"><i class="fa-solid hra fa-suitcase"></i>Jobs</a>
+			<a class="btn" id="spaces" href="#spaces"><i class="fa-solid hra fa-code"></i>Spaces</a>
+			<a class="btn" id="getCertified" href="#getcertified"><i class="fa-solid hra fa-cart-shopping"></i>Get
+				Certified</a>
+			<a class="btn bg-green" id="login" href="login">Login</a>
+		</div>
+	</header>
+	<div class="nav2">
+		<ul>
+			<li><a href="#">html</a></li>
+			<li><a href="#">css</a></li>
+			<li><a href="#">javascript</a></li>
+			<li><a href="#">php</a></li>
+			<li><a href="#">python</a></li>
+			<li><a href="#">sql</a></li>
+			<li><a href="#">java</a></li>
+			<li><a href="#">c</a></li>
+			<li><a href="#">c++</a></li>
+			<li><a href="#">c#</a></li>
+			<li><a href="#">bootstrap</a></li>
+			<li><a href="#">react</a></li>
+		</ul>
+	</div>
+	<!-- section 1 -->
+	<section class="section1">
+		<div class="text">
+			<h1>Learn to Code</h1>
+			<p>With the world's largest web developer site.</p>
+			<div>
+				<input type="search" name="" id="search-cntn1" placeholder="search our Tutorials, e.g. HTML" />
+				<i class="btn fa-solid fa-magnifying-glass" id="search-cntn2"></i>
+			</div>
+		</div>
+	</section>
+	<!-- section 2 -->
+	<section class="section2 sec">
+		<div class="text">
+			<h1>HTML</h1>
+			<h3>The language for building web pages</h3>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-green">Learn HTML</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-black">HTML Refrence</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-pink">Get Certified</button>
+			</div>
+		</div>
+		<div class="code-border">
+			<h1>HTML Example:</h1>
+			<div class="code">
+
+				<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;HTML Tutorial&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+
+&lt;h1&gt;This is a heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+			  </pre>
+			</div>
+			<button class="btn-try">Try It Yourself</button>
+		</div>
+	</section>
+	<!-- section 3 -->
+	<section class="section3 sec">
+		<div class="text">
+			<h1>CSS</h1>
+			<h3>The language for styling web pages</h3>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-green">Learn CSS</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-black">CSS Refrence</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-pink">Get Certified</button>
+			</div>
+		</div>
+		<div class="code-border">
+			<h1>CSS Example:</h1>
+			<div class="code">
+				<pre>
+body {
+	background-color: lightblue;
+}
+									  
+h1 {
+	color: white;
+	text-align: center;
+}
+									  
+p {
+	font-family: verdana;
+}
+				</pre>
+			</div>
+			<button class="btn-try">Try It Yourself</button>
+		</div>
+	</section>
+	<!-- section 4 -->
+	<section class="section4 sec">
+		<div class="text">
+			<h1>JavaScript</h1>
+			<h3>The language for programming web pages</h3>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-green">Learn JavaScript</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-black">JavaScript Refrence</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-pink">Get Certified</button>
+			</div>
+		</div>
+		<div class="code-border">
+			<h1 style="color: #000;">JavaScript Example:</h1>
+			<div class="code">
+				<pre style="line-height: 1.3rem;">
+&lt;button onclick="myFunction()"&gt;Click Me!&lt;/button&gt;
+						
+&lt;pre id="demo"&gt;&lt;/pre&gt;
+						
+&lt;script&gt;
+function myFunction() {
+	let x = document.getElementById("demo");
+	x.style.fontSize = "25px";
+	x.style.color = "red";
+	x.textContent = "Text has been changed!";
+}
+&lt;/script&gt;
+				</pre>
+			</div>
+			<button class="btn-try">Try It Yourself</button>
+		</div>
+	</section>
+	<!-- section 5 -->
+	<section class="section5 sec">
+		<div class="text">
+			<h1>Python</h1>
+			<h3>A popular programming language</h3>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-green">Learn Python</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-black">Python Refrence</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-pink">Get Certified</button>
+			</div>
+		</div>
+		<div class="code-border">
+			<h1>Python Example:</h1>
+			<div class="code">
+				<pre>
+if 5 > 2:
+    print("Five is greater than two!")
+					</pre>
+			</div>
+			<button class="btn-try">Try It Yourself</button>
+		</div>
+	</section>
+	<!-- section 6 -->
+	<section class="section6 sec">
+		<div class="text">
+			<h1>SQL</h1>
+			<h3>A language for accessing databases</h3>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-green">Learn SQL</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-black">SQL Refrence</button>
+			</div>
+			<div class="bttn">
+				<button class="sec-btn" id="btn-pink">Get Certified</button>
+			</div>
+		</div>
+		<div class="code-border">
+			<h1>SQL Example:</h1>
+			<div class="code">
+				<pre>
+SELECT * FROM Customers
+
+WHERE Country='Mexico';
+				</pre>
+			</div>
+			<button class="btn-try">Try It Yourself</button>
+		</div>
+	</section>
+	<!-- section 7 -->
+	<section class="section7">
+		<div class="grid-container">
+			<div class="grid-item">
+				<div class="grid-item php">
+					<h2>PHP</h2>
+					<h3>A web server programming language</h3>
+					<div class="grid-btn"><button>Learn PHP</button></div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-item jQuery">
+					<h2>jQuery</h2>
+					<h3>A JS library for developing web pages</h3>
+					<div class="grid-btn"><button>Learn jQuery</button></div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-item java">
+					<h2>Java</h2>
+					<h3>A programming language</h3>
+					<div class="grid-btn"><button>Learn Java</button></div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-item cpp">
+					<h2>C ++</h2>
+					<h3>A programming language</h3>
+					<div class="grid-btn"><button>Learn C++</button></div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-item csharp">
+					<h2>C #</h2>
+					<h3>A programming language</h3>
+					<div class="grid-btn"><button>Learn C#</button></div>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="grid-item Bootstrap">
+					<h2>Bootstrap</h2>
+					<h3>A CSS framework for designing better web pages</h3>
+					<div class="grid-btn"><button>Learn Bootstrap</button></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- section 8 -->
+	<section class="section8">
+		<div class="grid-container">
+			<div class="grid-item kotlin">
+				<h2>Kotlin</h2>
+			</div>
+			<div class="grid-item nodejs">
+				<h2>Node.js</h2>
+			</div>
+			<div class="grid-item react">
+				<h2>React</h2>
+			</div>
+			<div class="grid-item MySql">
+				<h2>mySQL</h2>
+			</div>
+			<div class="grid-item CyberSecurity">
+				<h2>Cyber Security</h2>
+			</div>
+			<div class="grid-item DataScience">
+				<h2>Data Science</h2>
+			</div>
+			<div class="grid-item json">
+				<h2>JSON</h2>
+			</div>
+			<div class="grid-item Raspberrypi">
+				<h2>Raspberry Pi</h2>
+			</div>
+			<div class="grid-item django">
+				<h2>Django</h2>
+			</div>
+			<div class="grid-item pandas">
+				<h2>Pandas</h2>
+			</div>
+			<div class="grid-item TypeScript">
+				<h2>Type Script</h2>
+			</div>
+			<div class="grid-item AngularJs">
+				<h2>AngularJs</h2>
+			</div>
+		</div>
+	</section>
+	<!-- section 9 -->
+	<section class="section9 sect">
+		<div class="text txt">
+			<h1>GEEKS Spaces</h1>
+			<h3>If you want to create your own website, check out Geeks Spaces.</h3>
+			<h3>It is free to use, and does not require any setup:</h3>
+			<img src="gif-sec-9.gif" alt="">
+			<img src="how-spaces-works-sec9.png" alt="">
+			<div><button class="btn-sect">LEARN MORE</button></div>
+		</div>
+	</section>
+	<!-- section 10 -->
+	<section class="section10 sect">
+		<div class="text txt">
+			<h1>Code Editor</h1>
+			<h3>With our online code editor, you can edit code and view the result in your browser</h3>
+			<img src="codeeditor-sec10.gif" alt="section 14 img">
+			<div><button class="front-end">Try Frontend Editor(HTML/CSS/JS)</button></div>
+			<div><button class="back-end">Try Backend Editor(Python/PHP/Java)</button></div>
+		</div>
+	</section>
+	<!-- section 11 -->
+	<section class="section11 sect">
+		<div class="text txt">
+			<h1>My Learning</h1>
+			<h3>Track your progress with our free "My Learning" program.</h3>
+			<h3>Log in to your account, and start earning points!</h3>
+			<img src="section11-img.png" alt="my learning">
+			<div>
+				<button class="btn-sect">Sign Up For Free</button>
+			</div>
+		</div>
+	</section>
+	<!-- section 12 -->
+	<section class="section12 sect">
+		<div class="text txt">
+			<h1>Become a PRO User</h1>
+			<h3 style="color: #FFC0C7;">And unlock powerful features:</h3>
+			<ul>
+				<li><img src="sect-ul-img.svg" alt="">Browse Computer Geeks <strong>without ads</strong></li>
+				<li><img src="sect-ul-img.svg" alt="">Website hosting (Includes Spaces PRO)</li>
+				<li><img src="sect-ul-img.svg" alt="">Access to our HTML Video Tutorial</li>
+			</ul>
+			<div><button class="btn-sect">Learn More</button></div>
+		</div>
+	</section>
+	<!-- section 13 -->
+	<section class="section13 sect">
+		<div class="text txt">
+			<h1>Web Templates</h1>
+			<h3>Browse our selection of <strong>free</strong> responsive HTML Templates</h3>
+			<img src="sect-13-img.jpg" alt="section 12 image">
+			<div><button>Browse Templates</button></div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer">
+			<div class="nav-footer">
+				<ul>
+					<div class="cg-logo"><img src="cg.png" alt=""></div>
+					<li><a href="">spaces</a></li>
+					<li><a href="">upgrade</a></li>
+					<li><a href="">newsettler</a></li>
+					<li><a href="">get Certified</a></li>
+					<li><a href="">report error</a></li>
+				</ul>
+			</div>
+			<div class="nav-footer-2">
+				<ul>
+					<li><a href="">Top Tutorials</a></li>
+					<li><a href="">Top Refrences</a></li>
+					<li><a href="">Top Examples</a></li>
+					<li><a href="">Get Certified</a></li>
+				</ul>
+			</div>
+			<div class="links-container">
+				<div class="footer-links">
+					<ul>
+						<li><a href="">HTML Tutorial</a></li>
+						<li><a href="">CSS Tutorial</a></li>
+						<li><a href="">JavaScript Tutorial</a></li>
+						<li><a href="">How To Tutorial</a></li>
+						<li><a href="">SQL Tutorial</a></li>
+						<li><a href="">Python Tutorial</a></li>
+						<li><a href="">Bootstrap Tutorial</a></li>
+					</ul>
+				</div>
+				<div class="footer-links">
+					<ul>
+						<li><a href="">HTML Refrences</a></li>
+						<li><a href="">CSS Refrences</a></li>
+						<li><a href="">JavaScript Refrences</a></li>
+						<li><a href="">How To Refrences</a></li>
+						<li><a href="">SQL Refrences</a></li>
+						<li><a href="">Python Refrences</a></li>
+						<li><a href="">Bootstrap Refrences</a></li>
+					</ul>
+				</div>
+				<div class="footer-links">
+					<ul>
+						<li><a href="">HTML Examples</a></li>
+						<li><a href="">CSS Examples</a></li>
+						<li><a href="">JavaScript Examples</a></li>
+						<li><a href="">How To Examples</a></li>
+						<li><a href="">SQL Examples</a></li>
+						<li><a href="">Python Examples</a></li>
+						<li><a href="">Bootstrap Examples</a></li>
+					</ul>
+				</div>
+				<div class="footer-links">
+					<ul>
+						<li><a href="">HTML Certificate</a></li>
+						<li><a href="">CSS Certificate</a></li>
+						<li><a href="">JavaScript Certificate</a></li>
+						<li><a href="">How To Certificate</a></li>
+						<li><a href="">SQL Certificate</a></li>
+						<li><a href="">Python Certificate</a></li>
+						<li><a href="">Bootstrap Certificate</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="socials">
+				<i class="fa-brands fa-linkedin"></i>
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-discord"></i>
+				<i class="fa-brands fa-facebook"></i>
+			</div>
+			<div class="copyright">
+				<h3><i class="fa-regular fa-copyright"></i>Computer Geeks</h3>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
